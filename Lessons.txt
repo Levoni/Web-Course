@@ -1,0 +1,64 @@
+1: HTML/Debugger
+- Organization (html, head, body, script, style)
+- Element Tags (div, input, button, title, etc...)
+- Attribues (id, type, class)
+- Linking stylesheets and javascript files
+
+
+2: CSS
+- What it's used for and example of having it vs not having it
+- style attributes
+	- font-size
+	- color
+	- background
+	- border
+	- margin
+	- padding
+- Targeting : https://frontend30.com/css-selectors-cheatsheet/ , https://devopedia.org/css-specificity
+	- Targets
+		- targeting operators
+	- Specifisity
+		- inline
+		- class
+		- element
+- CSS libraries
+	- bootstrap
+	- tailwind
+	- angular material
+- Other styling languages
+	- SCSS
+
+
+3:JavaScript
+- Overview (interpreted, pass by value, single threaded but has promises)
+- Variable declaration
+- method/lambdas
+- accessing/editing DOM
+- Debugging
+- Handling Arrays
+
+
+4:JavaScript Framework (React/nextJS)
+- Advantages/disadvantages
+- Getting a project up and running
+- JSX
+- State Management
+
+5. API
+- Types
+	- REST
+	- SOAP
+	- Service Stack
+- Requests 
+	- Structure
+		- Header
+		- body
+	- types: Get,Post,Patch,Delete
+	- Authentication
+	- JSON
+- Routing
+	- path
+	- query paramater
+- Framworks
+	- expressJS
+	- DotNet Standard

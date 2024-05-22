@@ -1,0 +1,96 @@
+1: HTML/Debugger
+- Organization (html, head, body, script, style)
+- Element Tags (div, input, button, title, etc...)
+- Attribues (id, type, class)
+- Linking stylesheets and javascript files
+
+
+1-1: Orginaization
+<!DOCTYPE html>
+- Goes at the top of the page, Indicator for what type of file it is
+<html>
+- Basic tag that wraps the entire HTML page
+- may have schema or lang attributes but not required
+<head>
+- Tag that surrounds different meta data tags
+- common children of head element are <title> <script> <link> <meta>
+- usually above body tag
+<body>
+- Element that surrounds your wepages visible content
+
+1-2 Element Tags : https://www.w3schools.com/tags/tag_div.asp
+(layout tags)
+<div>
+- basic divider
+- Mostly used for layout but are the most basic building block there is
+<span>
+- like div but used for placing content without disrupting the flow of the page
+<p>
+- used for creating small bits of content sligtly seperated from the page
+<table>
+- used for creaing tables
+- utilise <th> <tr> <td>
+<ul>, <ol>
+- used for creating lists
+- ul: unordered list
+- ol: ordered list (doesn't automatically sort)
+<br>
+- page break
+- used to make spacing between things without the need for cs
+(text tags)
+<h1> to <h6>
+- Text tag
+- Used for creating headers with different font sizes h1>h5
+(data)
+<form>
+- used to wrap individual data tags so they can be submitted all at once
+<input>
+- generic tag for input data onto the page
+- can be used for text, button clicks, radio buttons, check boxes, number only fields, date/time input, etc...
+- have to add the type attribute specifiy how it should be used
+<select>
+- used to create drop down fields
+- wrap <option> tags to create the different selectable options
+<textarea>
+- Text input that can wrap multiple lines
+- Good for submitting large messagee (ex: feedback feild)
+(Misc)
+<img>
+- used to display an image on the page
+- scr attribute used to specifiy where the image will come from
+<a>
+- used to display clickable link that will navigate user to different page or section
+
+
+1-3 Attributes
+class
+- used for applying a css class to an element
+style
+- used for applying css directly to the element
+href
+- used on <a> to supply address the user should be directed to
+- used as a location where resource is coming from in <link> tag
+alt
+- used on <img> to display text if image can't be loaded or for screen reader
+disabled
+- used for disabling data elements so they can no longer be changed
+src
+- used for specifiying where a resource is coming from.
+- used in <script> and <img> tags amoung others
+
+1-4 Linking
+<link rel="" href="">
+- used to link in external content to the page
+- rel is how it is related to the page, "stylesheet" is used for Css files
+- href is the location the resource is comming from
+<script src="">
+- used to link in external js files
+- src is the location the js file is comming from
+
+
+Resources:
+W3 shool website for tags
+https://www.w3schools.com/tags/tag_div.asp
+
+HTML Cheat Sheet:
+https://web.stanford.edu/group/csp/cs21/htmlcheatsheet.pdf
