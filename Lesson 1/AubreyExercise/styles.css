@@ -1,0 +1,21 @@
+img {
+    opacity: 95%;
+}
+
+h4 {
+    font-weight: normal;
+    margin-bottom: 7px
+}
+
+.fine-print {
+    font-weight: normal; 
+    font-style: italic
+}
+
+.subsection {
+    margin:40px
+}
+
+.question {
+    margin-bottom: 35px;
+}

@@ -4,22 +4,24 @@
 
 <head>
     <title>Levon is a poopy face</title>
+    <meta name="description" content="Poopyface Website">
+    <meta name="keywords" content="poopyface survey">
+    <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
-
     <img src="./sideBackground.jpg" width="27%" height="820" style="float: left">
     <img src="./sideBackground.jpg" width="27%" height="820" style="float: right">
-    <div style="text-align: center; padding: 200px;">
-        <div style="margin-bottom: 50px;">
+    <div style="text-align: center; padding: 100px;">
+        <div class="subsection">
             <h1>💩Levon is a Poopyface💩</h1>
-            <h4 style="font-weight: normal;margin-bottom: 35px;">Please answer the following questions about Levon and
+            <h4 style="margin-bottom: 35px;">Please answer the following questions about Levon and
                 his poopiness.</h4>
         </div>
 
         <form>
-            <h4 style="font-weight: normal; margin-bottom: 5px;">How brown is Levon's poopyface?</h4>
-            <div style="margin-bottom: 35px;">
+            <div class="question" style="margin-bottom: 35px;">
+                <h4>How brown is Levon's poopyface?</h4>
                 <input type="radio" id="bougie-brown" name="brown-colors" value="bougie-brown">
                 <label for="bougie-brown">Bougie Brown</label>
                 <input type="radio" id="redwood" name="brown-colors" value="redwood">
@@ -30,20 +32,23 @@
                 <label for="beige">Beigey Beige Beige</label>
             </div>
 
-            <h4 style="font-weight: normal; margin-bottom: 10px;">Any reason that Levon is not a poopyface? &#40Only
+            <div class="question">
+                <h4>Any reason that Levon is not a poopyface? &#40Only
                 correct answers accepted&#41</h4>
-            <input type="text" id="reason" placeholder="pooppooppooppoop"><br>
+                <input type="text" id="reason" placeholder="pooppooppooppoop"><br>
+            </div>
 
-            <button style="margin: 25px;">Submit</button>
+            <button>Submit</button>
         </form>
-        <div style="margin: 40px;">
+
+        <div class="subsection">
             <h3 style="font-weight:900;">Thank you for taking the survey!</h3>
-            <h6 style="font-weight: normal; font-style: italic;">
+            <h6 class="fine-print">
                 Taking this survey legally binds you to permanent agreement that Levon is indeed a poopyface.  
                 You are now legally obligated to provide confirmation that Levon is a poopyface to all who ask 
                 ®People Of Outstanding Poopyfaces (POOP)
             </h6> 
-            <h6 style="font-weight: normal; font-style: italic;">Love you 😊</h6>
+            <h6 class="fine-print">Love you 😊</h6>
         </div>
     </div>
 </body>
