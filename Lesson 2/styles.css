@@ -38,3 +38,23 @@ body {
 input {
     border-radius: 5px;
 }
+
+#testID > div:nth-child(2) {
+    background-color: blue;
+}
+
+div {
+    background-color: red!important;
+}
+
+body div {
+background-color: purple;
+}
+
+.text-hover:hover {
+    color:red
+}
+
+#testID {
+    padding:50px;
+}

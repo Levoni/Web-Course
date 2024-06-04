@@ -7,6 +7,7 @@
 
 2: CSS
 - What it's used for and example of having it vs not having it
+- Ways to add CSS to webpage
 - style attributes
 	- font-size
 	- color
@@ -21,12 +22,21 @@
 		- inline
 		- class
 		- element
+- Animations
+	- Animation attribute
+	- keyframes
+- Flex
+	- flex amount
+	- Justify
+	- direction
+	- align items
 - CSS libraries
 	- bootstrap
 	- tailwind
 	- angular material
 - Other styling languages
 	- SCSS
+
 
 
 3:JavaScript

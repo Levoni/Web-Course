@@ -1,0 +1,12 @@
+Resources
+
+Css reference: 
+	https://developer.mozilla.org/en-US/docs/Web/CSS/flex
+
+Display specifics:
+	Flex: https://css-tricks.com/snippets/css/a-guide-to-flexbox/
+	Grid: https://css-tricks.com/snippets/css/complete-guide-grid/
+
+How css is applied to elements
+	Selectors: https://frontend30.com/css-selectors-cheatsheet/ 
+	Specificity: https://devopedia.org/css-specificity

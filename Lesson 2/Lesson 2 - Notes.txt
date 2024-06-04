@@ -1,0 +1,91 @@
+2: CSS
+- What it's used for and example of having it vs not having it
+- Ways to add CSS to webpage
+- style attributes
+	- font-size
+	- color
+	- background
+	- border
+	- margin
+	- padding
+- Targeting : https://frontend30.com/css-selectors-cheatsheet/ , https://devopedia.org/css-specificity
+	- Targets
+		- targeting operators
+	- Specifisity
+		- inline
+		- class
+		- element
+- Animations
+	- Animation attribute
+	- keyframes
+- Flex
+	- flex amount
+	- Justify
+	- direction
+	- align items
+- CSS libraries
+	- bootstrap
+	- tailwind
+	- angular material
+- Other styling languages
+	- SCSS
+
+
+2-1 Why it's important
+- Handles the look and layout of the webpage
+- The look and layout of a webpage is important for First impressions and ease of use
+- Example) Youtube.com
+
+2-2 Ways to add CSS to webpage
+- inline
+	- Applies style directly to element
+	- Can't be shared between elements
+	- In the HTML page
+- Style element
+	- Can use classes, element types, or IDs to apply style to
+	- Can use styles between elements
+	- In the HTML page
+- Cascading Style Sheet (CSS)
+	- Can use classes, element types, or IDs to apply style to
+	- Can use styles between elements
+	- In seperate file that is linked into the HTML page
+
+
+2-3 Style attributes
+- font-size
+	- How large the text is
+- color
+	- What color the text is
+- background
+	- What color/image will be used for the background of an element
+- border
+	- What color/thickness/pattern the border of an element will have
+- margin
+	- Space around the element 
+- padding
+	- space between the border and inside content of an element
+- display
+	- How the element is laid out on the screan
+	- block, inline, none, flex, grid
+- flex
+	- Great for laying elements out in a very specific pattern without specifiying spacing
+- Grid 
+	- Great for laying elements out in a grid based pattern on a page
+- Many More
+	- Can be search for as needed : https://developer.mozilla.org/en-US/docs/Web/CSS/flex
+
+
+2-4 How CSS is applied
+	- Targets
+		- elements
+		- classes
+		- ids
+	- Targeting operators
+		- space
+		- 
+		
+	- Specificity
+		- Order
+		- selector addition
+
+
