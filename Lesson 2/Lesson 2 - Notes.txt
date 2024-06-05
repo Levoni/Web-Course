@@ -8,21 +8,21 @@
 	- border
 	- margin
 	- padding
-- Targeting : https://frontend30.com/css-selectors-cheatsheet/ , https://devopedia.org/css-specificity
+- Targeting :
 	- Targets
 		- targeting operators
 	- Specifisity
 		- inline
 		- class
 		- element
-- Animations
-	- Animation attribute
-	- keyframes
 - Flex
 	- flex amount
 	- Justify
 	- direction
 	- align items
+- Animations
+	- Animation attribute
+	- keyframes
 - CSS libraries
 	- bootstrap
 	- tailwind
@@ -81,9 +81,7 @@
 		- classes
 		- ids
 	- Targeting operators
-		- space
-		- 
-		
+		- https://frontend30.com/css-selectors-cheatsheet/
 	- Specificity
 		- Order
 		- selector addition

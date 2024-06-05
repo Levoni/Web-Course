@@ -1,0 +1,3 @@
+Extra Credit
+- Dark Mode (overriding elements & classes by applying one class to the body element)
+- Layout Webpage face webpage in Lesson 2 using Flex-box (first box is already styled)

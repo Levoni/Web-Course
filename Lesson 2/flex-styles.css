@@ -1,0 +1,29 @@
+.box {
+    border: 2px solid black;
+    display: flex;
+    padding: 5px;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+}
+
+.space {
+    justify-content: space-around;
+}
+
+.column.center {
+    align-items: center;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    flex:1;
+}
+
+.vertical-div {
+    margin: 2px 10px 2px 10px;
+    border: 1px solid black;
+}
