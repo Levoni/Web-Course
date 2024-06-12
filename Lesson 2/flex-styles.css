@@ -40,3 +40,16 @@
 .face {
     padding-left: 70px;
 }
+
+@keyframes eyebrow-lift{
+    0% {top: 0px;}
+    50% {top: -40px;}
+    100% {top: 0px;}
+}
+
+.eyebrows {
+    animation-name: eyebrow-lift;
+    animation-duration: 1s;
+    animation-iteration-count: 2;
+    position: relative;
+}
