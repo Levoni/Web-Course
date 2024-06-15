@@ -1,0 +1,67 @@
+.grid {
+    display: grid;
+    grid-template-columns: [col1] auto [col2] auto;
+    grid-template-rows: [row1] auto [row2] auto;
+    grid-template-areas: "info projects" "links links";
+    column-gap: normal;
+    row-gap: normal;
+    justify-content: center;
+}
+
+.grid > div {
+    border: 1px solid;
+    margin: 1px;
+}
+
+.grid-item1 {
+    grid-area: info;
+    display: grid;
+    grid-template-rows: min-content auto;
+    grid-template-areas: "header header header" "left-content line right-content";
+    justify-items: center;
+}
+
+.header-name {
+    grid-area: header;
+    font-size:xx-large;
+}
+
+.left {
+    grid-area: left-content;
+    align-self: center;
+}
+
+.middle-line {
+    grid-area: line;
+    border: 1px solid;
+    margin: 2px;
+}
+
+.right {
+    grid-area: right-content;
+    align-self: center;
+}
+
+.grid-item2 {
+    grid-area: projects;
+}
+
+.grid-item3 {
+    grid-area: links;
+    display: grid;
+    grid-template-areas: "one two thanks";
+    gap: 10px;
+    padding: 10px;
+}
+
+.link-one {
+    grid-area: one;
+}
+
+.link-two {
+    grid-area: two;
+}
+
+.message {
+    grid-area: thanks;
+}
