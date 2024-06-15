@@ -1,0 +1,27 @@
+3:JavaScript
+- Overview (interpreted, pass by value, single threaded but has promises)
+	- interpreted (browser, nodejs)
+	- non-basic types are stored by reference value
+	- Single threaded but can pretend to multithreaded
+	- Variables are not statically typed
+- Variable declaration/setting
+	- var, let, const
+	- Can be set to any type at any time
+- Comparisons
+	- double vs triple equals
+	- tutionarry statement ?:
+- method/lambdas
+	- Can set variables to methods
+	- Set methods using lambda syntax to avoid decaring a function
+- accessing/editing DOM
+	- document
+	- events
+- Handling Arrays
+	- map
+	- filter
+	- reduce
+	- find
+	- spread operator
+- Debugging
+	- break points
+	- console.log()

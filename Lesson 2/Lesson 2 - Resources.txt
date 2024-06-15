@@ -10,3 +10,6 @@ Display specifics:
 How css is applied to elements
 	Selectors: https://frontend30.com/css-selectors-cheatsheet/ 
 	Specificity: https://devopedia.org/css-specificity
+
+Css Animations
+	https://www.w3schools.com/css/css3_animations.asp
