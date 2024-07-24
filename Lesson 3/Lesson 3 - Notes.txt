@@ -10,12 +10,18 @@
 - Comparisons
 	- double vs triple equals
 	- tutionarry statement ?:
+
+//Stopped Here
 - method/lambdas
 	- Can set variables to methods
-	- Set methods using lambda syntax to avoid decaring a function
+	- Set methods using lambda syntax to avoid declaring a function
+	- callbacks
 - accessing/editing DOM
 	- document
 	- events
+- async/promises
+	- promise structure
+	- async advantages
 - Handling Arrays
 	- map
 	- filter
