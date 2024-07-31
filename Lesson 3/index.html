@@ -7,7 +7,12 @@
     <meta name="keywords" content="html tutorial template">
     <link rel="stylesheet" href="styles.css">
 </head>
-
+<script>
+    let consoleAndLog = (e,message) => {
+        console.log(message)
+        logInput(e)
+    }
+</script>
 
 <body class="test">
     <div class="main">
@@ -15,13 +20,13 @@
         <form> 
             <div class="login-box" style="display: flex;flex-direction: column;gap: 20px;">
                 <div>Input</div>
-                <div onchange="(function(e) {console.log('Foo updated');logInput(e)})(event)" class="input-line">
+                <div onchange="consoleAndLog(event,'Foo Updated')" class="input-line">
                     <div>Foo</div>
                     <input id="Foo" type="text">
                 </div>
                 <div class="input-line">
                     <div>Bar</div>
-                    <input onchange="logInput(event)" id="Bar" type="text">
+                    <input onchange="console.log('Bar updated');logInput(event)" id="Bar" type="text">
                 </div>
                 <button id="login-submit">Submit</button>
             </div>

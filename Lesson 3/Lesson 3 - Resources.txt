@@ -1,0 +1,2 @@
+//lambda resource
+https://levelup.gitconnected.com/arrow-function-vs-regular-function-in-javascript-b6337fb87032

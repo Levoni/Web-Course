@@ -72,3 +72,17 @@
 - Framworks
 	- expressJS
 	- DotNet Standard
+
+6. Hosting a website locally
+	- Router Manipulation
+		- Ports
+		- Port Forwarding
+		- Public IP
+	- Hosting Platforms
+		- IIS
+		- Apache
+		- Linux
+	- Domain Names
+		- purchasing
+		- SSL/certs
+	- Practical 
