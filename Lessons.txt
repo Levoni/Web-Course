@@ -85,4 +85,4 @@
 	- Domain Names
 		- purchasing
 		- SSL/certs
-	- Practical 
+	- Practical

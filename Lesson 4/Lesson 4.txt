@@ -1,0 +1,19 @@
+4:JavaScript Framework (React/nextJS)
+- Advantages/disadvantages
+- Getting a project up and running
+	- Next.js
+- Layout
+	- App Folder structure
+	- Page keyword
+	- Layout keyword
+- Component/pages
+	- JSX
+	- Hooks
+		- UseEffect
+		- UseState
+		- UseMemo
+		- Use
+
+- Extra Credit Research
+	- Styles (Module.css)
+	- How to run NPM commands without changing execution policy
